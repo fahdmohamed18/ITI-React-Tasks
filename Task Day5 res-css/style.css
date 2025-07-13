@@ -1,0 +1,104 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Verdana', sans-serif;
+  background-color: #fdfaf6;
+  color: #333;
+  padding: 20px;
+}
+
+
+header {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+nav {
+  margin-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #fbbf24;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  color: #e5e7eb;
+}
+
+/* Sections */
+section {
+  margin-bottom: 40px;
+}
+
+#title {
+  color: #b91c1c;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Form elements */
+fieldset {
+  border: 2px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+legend {
+  font-weight: bold;
+  color: #111827;
+}
+
+.form-label {
+  font-weight: bold;
+  font-style: italic;
+  color: #4b5563;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #9ca3af;
+  border-radius: 6px;
+  background-color: #f9fafb;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+
+table {
+  width: 100%;
+  margin-top: 15px;
+}
+
