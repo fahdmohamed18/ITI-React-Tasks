@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Alegreya Sans", sans-serif;
+}
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-family: "Alegreya", serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.padding-section{
+    padding: 70px 0;
+}
+#header{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+}
+/* navbar style*/
+
+#header .navbar{
+    background-color: #F8F8F8;
+    padding: 7px 0;
+}
+
+#header .navbar .logo{
+    width: 15%;
+    display: inline-block;
+}
+#header .navbar .logo img{
+    width: 100%;
+    vertical-align: middle;
+}
+#header .navbar .menu-nav{
+    width: 80%;
+    display: inline-block;
+}
+#header .navbar .menu-nav ul{
+    text-align: end;
+    list-style-type: none;
+}
+#header .navbar .menu-nav ul li{
+    display: inline-block;
+    padding-inline: 10px ;
+}
+#header .navbar .menu-nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+#header .navbar .menu-nav ul li a:hover{
+    color:#E0C690;
+}
+#header .header-content{
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    font-weight: 400;
+}
+#header .header-content span{
+    font-size: 22px;
+}
+#header .header-content p{
+    font-size: 24px;
+    margin: 10px 0px 20px;
+    width: 48%;
+    margin: auto;
+}
+h1{
+    font-size: 76px;
+    margin: 10px 0;
+}
+
+#header .header-content button{
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+    margin-right: 8px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#header .header-content .btn-1{
+    background-color: #8e7754;
+    border: 2px solid #8e7754;
+}
+#header .header-content .btn-2{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+#who-section .who-img{
+    /* background-color: blue;   */
+    width: 45%; 
+    display: inline-block;
+    vertical-align: top;
+}
+#who-section .who-img img{
+    width: 100%;
+    display: block;
+}
+
+#who-section .who-info{
+    /* background-color: brown; */
+    width: 50%;
+    display: inline-block ;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+#who-section .who-info h2{
+    padding-left: 50px;
+    font-size: 32px;
+    font-weight: 400;
+}
+#who-section .who-info p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    padding-left: 44px;
+    line-height: 32px;
+    width: 500px;
+}
+#who-section .who-info ul li{
+    padding-block: 10px;
+}
+#who-section .who-info ul{
+    list-style-type: none;
+}
+
+#who-section .who-info ul li img{
+    width: 50px;
+    vertical-align: middle;
+    border: 0.5px solid #6868681b;
+    border-radius: 50%;
+}
+
+#location{
+    background-color: #F8F8F8;
+}
+
+#location .location-info{
+    /* background-color: tomato; */
+    width: 50%;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+#location .location-info h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+#location .location-info p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    color:#686868;
+}
+#location .location-img{
+    /* background-color: brown; */
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#location .location-img img{
+    width: 100%;
+    margin-left: 80px;
+}
+.clear-fix{
+    clear: both;
+}
+#baking {
+    /* background-color: tomato; */
+    text-align: center;
+}
+#baking h2{
+    /* background-color: aqua; */
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+#baking p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    line-height: 32px;
+}
+
+#baking .baking-item{
+    width: 33.33%;
+    float: left;
+    padding: 0 15px; 
+}
+#baking .baking-item img{
+    width: 100%;
+}
+#baking .baking-item h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#contact{
+    background-color: #F8F8F8;
+}
+
+#contact .contact-info{
+    /* background-color: aqua; */
+    width: 45%;
+    float: left;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+#contact .contact-info h2{
+    font-size: 32px;
+    font-weight: 400;
+    padding-block: 10px; 
+}
+#contact .contact-info p,span{
+    font-size: 17px ;
+    font-weight: 400;
+    color: #686868;
+}
+#contact .contact-info ul li img{
+    width: 30px;
+} 
+#contact .contact-info ul li .icon{
+    background-color: #8E7754;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+#contact .contact-info ul li{
+    /* background-color: teal; */
+    padding-block: 10px;
+    margin-right: 70px;
+}
+#contact .contact-info ul{
+    list-style-type:none ;
+    margin: 0;
+    padding: 0;
+}
+#contact .contact-map{
+    /* background-color: tomato; */
+    width:45%;
+    float: right;
+    margin-right: 100px;
+    /* padding-top: 30px; */
+}
+#contact .contact-map iframe{
+    width: 100%;
+    display: block;
+    margin: 50px 50px;
+}
+
+
+#about-us{
+    background-color: #403D38;
+    padding: 40px 0;
+}
+#about-us h3{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+#about-us .item p{
+    line-height: 32px;
+}
+#about-us .item{
+    color: #979796;
+    width: 25%;
+    float: left;
+    padding-inline: 15px ;
+}
+#about-us .item ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#about-us .item ul li{
+    padding-block: 5px;
+}
+#about-us .item ul li img{
+    width: 20px;
+    vertical-align: middle;
+}
+#about-us .item-last{
+    background-image: url(../images/contact-details-map.png);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#about .item .layer{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 25px;
+    border-radius: 20px;
+}
+hr{
+    opacity: 0.3;
+}
+#final{
+    background-color: #353330;
+    text-align: center;
+    padding: 40px 0;
+}
+#final .bak-img{
+    /* background-color: beige; */
+    width: 25%;
+    margin: auto;
+    padding: 10px 0;
+    display: block;
+}
+#final span{
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    margin: 20px 0;
+    color:#979796;
+}
+
+#final .icons img{
+    background-color: #403D38;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
